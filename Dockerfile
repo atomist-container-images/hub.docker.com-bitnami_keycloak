@@ -1,12 +1,27 @@
-# Tags: latest, 16.1.1-debian-10-r64, 16.1.1, 16-debian-10, 16
+# Tags: latest, 16.1.1-debian-10-r69, 16.1.1, 16-debian-10, 16
 FROM bitnami/keycloak:latest
-FROM bitnami/keycloak:16.1.1-debian-10-r64
+FROM bitnami/keycloak:16.1.1-debian-10-r69
 FROM bitnami/keycloak:16.1.1
 FROM bitnami/keycloak:16-debian-10
 FROM bitnami/keycloak:16
 
 # Tags: _
 FROM bitnami/keycloak:_
+
+# Tags: 16.1.1-debian-10-r68
+FROM bitnami/keycloak:16.1.1-debian-10-r68
+
+# Tags: 16.1.1-debian-10-r67
+FROM bitnami/keycloak:16.1.1-debian-10-r67
+
+# Tags: 16.1.1-debian-10-r66
+FROM bitnami/keycloak:16.1.1-debian-10-r66
+
+# Tags: 16.1.1-debian-10-r65
+FROM bitnami/keycloak:16.1.1-debian-10-r65
+
+# Tags: 16.1.1-debian-10-r64
+FROM bitnami/keycloak:16.1.1-debian-10-r64
 
 # Tags: 16.1.1-debian-10-r63
 FROM bitnami/keycloak:16.1.1-debian-10-r63
@@ -82,18 +97,3 @@ FROM bitnami/keycloak:16.1.1-debian-10-r40
 
 # Tags: 16.1.1-debian-10-r39
 FROM bitnami/keycloak:16.1.1-debian-10-r39
-
-# Tags: 16.1.1-debian-10-r38
-FROM bitnami/keycloak:16.1.1-debian-10-r38
-
-# Tags: 16.1.1-debian-10-r37
-FROM bitnami/keycloak:16.1.1-debian-10-r37
-
-# Tags: 16.1.1-debian-10-r36
-FROM bitnami/keycloak:16.1.1-debian-10-r36
-
-# Tags: 16.1.1-debian-10-r35
-FROM bitnami/keycloak:16.1.1-debian-10-r35
-
-# Tags: 16.1.1-debian-10-r34
-FROM bitnami/keycloak:16.1.1-debian-10-r34
