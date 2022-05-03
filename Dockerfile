@@ -88,6 +88,3 @@ FROM bitnami/keycloak:16.1.1-debian-10-r69
 
 # Tags: 16.1.1-debian-10-r68
 FROM bitnami/keycloak:16.1.1-debian-10-r68
-
-# Tags: 16.1.1-debian-10-r67
-FROM bitnami/keycloak:16.1.1-debian-10-r67
