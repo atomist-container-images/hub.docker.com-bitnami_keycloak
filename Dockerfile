@@ -1,12 +1,45 @@
-# Tags: latest, 16.1.1-debian-10-r95, 16.1.1, 16-debian-10, 16
+# Tags: latest, 17.0.1-debian-10-r1, 17.0.1, 17-debian-10, 17
 FROM bitnami/keycloak:latest
-FROM bitnami/keycloak:16.1.1-debian-10-r95
+FROM bitnami/keycloak:17.0.1-debian-10-r1
+FROM bitnami/keycloak:17.0.1
+FROM bitnami/keycloak:17-debian-10
+FROM bitnami/keycloak:17
+
+# Tags: _
+FROM bitnami/keycloak:_
+
+# Tags: 17.0.1-debian-10-r0
+FROM bitnami/keycloak:17.0.1-debian-10-r0
+
+# Tags: 16.1.1-debian-10-r103, 16.1.1, 16-debian-10, 16
+FROM bitnami/keycloak:16.1.1-debian-10-r103
 FROM bitnami/keycloak:16.1.1
 FROM bitnami/keycloak:16-debian-10
 FROM bitnami/keycloak:16
 
-# Tags: _
-FROM bitnami/keycloak:_
+# Tags: 16.1.1-debian-10-r102
+FROM bitnami/keycloak:16.1.1-debian-10-r102
+
+# Tags: 16.1.1-debian-10-r101
+FROM bitnami/keycloak:16.1.1-debian-10-r101
+
+# Tags: 16.1.1-debian-10-r100
+FROM bitnami/keycloak:16.1.1-debian-10-r100
+
+# Tags: 16.1.1-debian-10-r99
+FROM bitnami/keycloak:16.1.1-debian-10-r99
+
+# Tags: 16.1.1-debian-10-r98
+FROM bitnami/keycloak:16.1.1-debian-10-r98
+
+# Tags: 16.1.1-debian-10-r97
+FROM bitnami/keycloak:16.1.1-debian-10-r97
+
+# Tags: 16.1.1-debian-10-r96
+FROM bitnami/keycloak:16.1.1-debian-10-r96
+
+# Tags: 16.1.1-debian-10-r95
+FROM bitnami/keycloak:16.1.1-debian-10-r95
 
 # Tags: 16.1.1-debian-10-r94
 FROM bitnami/keycloak:16.1.1-debian-10-r94
@@ -61,30 +94,3 @@ FROM bitnami/keycloak:16.1.1-debian-10-r78
 
 # Tags: 16.1.1-debian-10-r77
 FROM bitnami/keycloak:16.1.1-debian-10-r77
-
-# Tags: 16.1.1-debian-10-r76
-FROM bitnami/keycloak:16.1.1-debian-10-r76
-
-# Tags: 16.1.1-debian-10-r75
-FROM bitnami/keycloak:16.1.1-debian-10-r75
-
-# Tags: 16.1.1-debian-10-r74
-FROM bitnami/keycloak:16.1.1-debian-10-r74
-
-# Tags: 16.1.1-debian-10-r73
-FROM bitnami/keycloak:16.1.1-debian-10-r73
-
-# Tags: 16.1.1-debian-10-r72
-FROM bitnami/keycloak:16.1.1-debian-10-r72
-
-# Tags: 16.1.1-debian-10-r71
-FROM bitnami/keycloak:16.1.1-debian-10-r71
-
-# Tags: 16.1.1-debian-10-r70
-FROM bitnami/keycloak:16.1.1-debian-10-r70
-
-# Tags: 16.1.1-debian-10-r69
-FROM bitnami/keycloak:16.1.1-debian-10-r69
-
-# Tags: 16.1.1-debian-10-r68
-FROM bitnami/keycloak:16.1.1-debian-10-r68
